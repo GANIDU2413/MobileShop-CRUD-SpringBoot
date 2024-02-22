@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
-@Entity // data base using
+@Entity(name = "mobile_phone") // class name eka table ekt match krnw
 
 public class Mobile {
     @Id

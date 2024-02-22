@@ -12,7 +12,7 @@ public class MobileService {
     @Autowired //auto wired with bean
     MobileRepo mobileRepo; //model -> Mobile repo interface
 
-    public List<Mobile>getAll(){
+    public List<Mobile> getAll(){
         return mobileRepo.findAll();
     }
 
